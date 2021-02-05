@@ -1,0 +1,71 @@
+/* Header */
+
+#netflix-logo {
+    margin-left: 5vh;
+    font-size: 5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+
+.nav-link {
+    color: white;
+}
+
+#navbar-black {
+    background-color: black;
+}
+
+.fa {
+    font-size: 1.2em;
+}
+
+#distancia {
+    padding-right: 12vh;
+}
+
+
+/*responsividade header*/
+
+
+/* Fim do Header */
+
+
+/* Body */
+
+body {
+    background-color: black;
+}
+
+.mainStream {
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('/images/real.jpg');
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+div.container {
+    color: white;
+}
+
+p.sinopse {
+    padding-top: 4vh;
+}
+
+button.btn {
+    background-color: rgba(0, 0, 0, .50);
+    color: white;
+    border: none;
+    padding: 2vh 4vh;
+    cursor: pointer;
+    transition: .5s ease all;
+}
+
+button.btn:hover {
+    background-color: white;
+    color: black;
+    transition: .5s ease all
+}
+
+
+/* Fim do Body */
